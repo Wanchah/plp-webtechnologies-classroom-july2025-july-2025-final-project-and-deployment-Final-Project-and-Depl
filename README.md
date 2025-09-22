@@ -92,19 +92,9 @@ Deploy your project and confirm that:
 
 
 
-```markdown
-Absolutely, Abdulquddus. Here's your updated and submission-ready `README.md`, now revised to:
-
-- ✅ Include the full assignment brief
-- ✅ Showcase your deployed project
-- ✅ Provide a clean usage guide
-- ✅ Recommend **forking** instead of cloning to protect your original work
-
----
 
 ## 📄 Final `README.md`
 
-```markdown
 # 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
 
 This project fulfills the requirements of a web development assignment focused on designing, coding, and deploying a multipage website. It demonstrates proficiency in:
@@ -113,21 +103,6 @@ This project fulfills the requirements of a web development assignment focused o
 - ✅ CSS3 for responsive styling
 - ✅ JavaScript for interactivity (form validation)
 - ✅ Website deployment using GitHub Pages
-
----
-
-## 📚 Assignment Brief
-
-You will:
-- Design a website with at least three pages (e.g., Home, About, Contact) and ensure it’s responsive.
-- Use HTML5 for semantic structure, CSS3 for styling, and JavaScript for interactivity (e.g., form validation, image sliders).
-- Deploy the website using a platform like GitHub Pages, Netlify, or Vercel.
-- Submit all website files (HTML, CSS, JS, images) along with a live website URL and project documentation.
-
-
-
-
-
 
 ---
 
@@ -236,4 +211,3 @@ Focused on clean code, scalable architecture, and empowering users through intui
 ## 📜 License
 
 This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT)
-```
