@@ -1,0 +1,180 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navigation */
+header {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+/* Hero Section (Home Page) */
+.hero {
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 8px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+/* Promo Banner */
+.promo-banner {
+  background-color: #ffeeba;
+  padding: 20px;
+  text-align: center;
+  margin: 30px auto;
+  border-radius: 8px;
+  max-width: 800px;
+}
+
+/* Product Grid (Products + Home Preview) */
+.products, .featured-products {
+  padding: 20px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product {
+  flex: 1 1 300px;
+  max-width: 300px;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: 198px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.product h3 {
+  margin: 10px 0;
+}
+
+/* About Page */
+.about-us, .about-teaser {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.about-us ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+/* Contact + Checkout Forms */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+form input, form select, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+form .btn {
+  margin-top: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product {
+    max-width: 90%;
+  }
+}
